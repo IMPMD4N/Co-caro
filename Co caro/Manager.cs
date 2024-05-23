@@ -67,7 +67,7 @@ namespace Co_caro
 
                     btn.Click += btn_Click;
 
-                    /*Chessboard.Controls.Add(btn);//Them cac nut vao panel Chessboard*/
+                    Chessboard.Controls.Add(btn);//Them cac nut vao panel Chessboard
 
                     oldButton = btn;
                 }
