@@ -34,11 +34,10 @@ namespace Co_caro
         {
             this.Chessboard = chessboard;
             this.Player = new List<Player>()
-                { 
-                    new Player ("PMD4N", Image.FromFile(Application.StartupPath + "\\Resources\\x.png")),
-                    new Player ("ATU", Image.FromFile(Application.StartupPath + "\\Resources\\o.png"))
-
-                };
+            {
+                new Player ("PMD4N", Image.FromFile(Application.StartupPath + "\\..\\..\\Resources\\x.png")),
+                new Player ("ATU", Image.FromFile(Application.StartupPath + "\\..\\..\\Resources\\o.png"))
+            };
         }
 
 
@@ -80,7 +79,7 @@ namespace Co_caro
         void btn_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;
-            btn.BackgroundImage = Image.FromFile(Application.StartupPath + "\\Resources\\x.png");
+            btn.BackgroundImage = Image.FromFile(Application.StartupPath + "\\..\\..\\Resources\\x.png");
         }
         #endregion
 
